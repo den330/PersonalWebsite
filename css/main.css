@@ -1,3 +1,21 @@
-.{
-	
+.JackY_NavContainer{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+header{
+	text-align: center;
+}
+
+aside{
+	position: fixed;
+	left: 0;
+	top: 50;
+}
+
+main{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
 }
