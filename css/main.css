@@ -1,7 +1,7 @@
 .JackY_NavContainer{
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: space-around;
 }
 
 header{
@@ -12,10 +12,11 @@ aside{
 	position: fixed;
 	left: 0;
 	top: 50;
+	width: 100px;
 }
 
 main{
 	display: flex;
 	flex-direction: column;
-	text-align: center;
+	margin-left: 100px;
 }
