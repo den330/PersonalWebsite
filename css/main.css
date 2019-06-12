@@ -1,22 +1,2 @@
-.JackY_NavContainer{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-}
 
-header{
-	text-align: center;
-}
 
-aside{
-	position: fixed;
-	left: 0;
-	top: 50;
-	width: 100px;
-}
-
-main{
-	display: flex;
-	flex-direction: column;
-	margin-left: 100px;
-}
