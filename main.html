@@ -4,61 +4,130 @@
 	<head>
 		<title> Yaxin Yuan Website </title>
 		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 	</head>
 	<body>
-		<header class="bg-secondary">
+		<header class="bg-secondary mb-3">
 			<h1 class="display-1 text-center text-light"> Yaxin Yuan Website </h1>
 			<nav class="navbar navbar-expand-sm bg-success navbar-light justify-content-md-center">
 				<ul class="navbar-nav">
 					<li class="nav-item">
-						<a class="nav-link" href="#">Home</a>
+						<a class="nav-link nvhome" href="#">Home</a>
 					</li>
 					<li class="nav-item">
-					 <a class="nav-link" href="#">Skill Set</a>
+					 <a class="nav-link nvskill" href="#">Skill Set</a>
 					</li>
 					<li class="nav-item">
-					 <a class="nav-link" href="#">Work Experience</a>
+					 <a class="nav-link nvwork" href="#">Work Experience</a>
 					</li>
 					<li class="nav-item">
-					 <a class="nav-link" href="#">Resume</a>
+					 <a class="nav-link nvResume" href="#">Resume</a>
 					</li>
 				</ul>
 			</nav>
 		</header>
-		<main>
-			<section>
-				<h2> About me </h2>
-				<p> So this is me and whatever </p>
-			</section>
+		<main class="container">
+			<div class="row mb-3">
+				<section class="col-md">
+					<h2> About me </h2>
+					<ul>
+						<li>Name: YAXIN YUAN </li>
+						<li>Treehouse Profile: https://teamtreehouse.com/yaxinyuan </li>
+						<li>University of Waterloo(2012 ~ 2016) Economics </li>
+						<li>Currently learning Full Stack Web Development on Udacity(nanodegree)</li>
+						<li>Interests and hobbies: Champions league(Soccer), Video games(Mini Metro, FIFA 18, Anno 1800) </li>
+	 				</ul>	
+				</section>
 
-			<section>
-				<h2> Skill Set </h2>
-				<p> The following is what I know. </p>
-			</section>
+				<section class="col-md">
+					<h2> Skill Set </h2>
+					<p> 
+						Language: Swift, Obj-C, C, C++, Scheme, Entry-Level Knowledge about HTML, CSS, Jquery, Node.js.
+						Tools Frequently Used: Xcode, cocoapods, Instrument(Leaks, Allocation used most often), Git, Bitbucket, JIRA, Confluence.  
+						Agile Methodology: Scrum 
+					</p>
+				</section>
+			</div>
+			
 
-			<section>
-				<h2> Work Experience </h2>
-				<dl>
-					<dt>
-						SPC Card(2018 ~ 2019)
-					</dt>
-					<dd>
-						dasdsadasddsad
-					<dd>
+				<section>
+					<h2> Work Experience </h2>
+					<dl class="row">
+						<div class="col-md-4">
+							<dt>
+								iOS developer at SPC(Student Price Card)(Feb 5, 2018 ~ Nov 20, 2018)
+							</dt>
+							<dd>
+								<ol>
+									<li>
+										Completely rebuilt SPC Card app(iOS end, version 5.0.0) as the only iOS dev in a scrum team, users can now
+										<ol>
+											<li>browse, search offers. </li>
+											<li>enter contests. </li>
+											<li>locate nearby offers on map. </li>
+											<li>Copy promotion code for online offers. </li>
+											<li>Scan barcode for instore offers. </li>
+										</ol>
+									</li>
+									<li>Released USA version of the app targeting the US market. </li>
+									<li>Restful Api used for adding, updating, deleting info on backend server. </li>
+								</ol>
+									
+								<p>
+									Reference: Graydyn Young(Director of Engineering at SPC Card):
+									https://www.linkedin.com/in/graydyn-young-795551bb/
+								</p>
+							</dd>
+						</div>	
+						
+						<div class="col-md-4">
+							<dt> 
+								iOS developer at Alias Apps(www.aliasapps.com)(Dec 16, 2016 ~ Mar 10, 2017, Oct 19, 2017 ~ Jan 22, 2018)
+							</dt>
+							<dd> 
+								<p>Key Areas of Responsibility Include:
+									<ol>
+										<li>add new features for mobile software applications.</li>
+										<li>Improve previously-written code to enhance overall performance of software applications.</li>
+										<li>Improve user interface for applications when required.</li>
+										<li>Test the existing code to Identify and remove bottlenecks. </li>
+										<li>Upgrade completed program to meet new requirements.</li>
+										<li>Built <q>Claim Account(Guest Login)</q> procedure, and connected it to the back-end.(Koind) (https://itunes.apple.com/us/app/koind/id836423217)</li>
+										<li>Built new version of the Refine Search Page from scratch with highly modularized and reusable code structure, and connected it to the back-end so the number of results is shown to the user instantly.
+										(https://itunes.apple.com/us/app/tag-in!/id1105092071)</li>
+										<li>Refined the UI, so apps can be presented properly in the latest iPhone model(iPhone X).</li>
 
-					<dt> Alias Apps </dt>
-					<dd> dasdasd </dd>
+									</ol>
+								</p>
+							</dd>
+						</div>	
 
-				</dl>
+						<div class="col-md-4">
+							<dt> 
+								iOS developer at Emmetros(emmetros.com)(Mar 13, 2017 ~ Sept 1, 2017) 
+							</dt>
+							<dd> 
+								As a member of a scrum team, I built <q>My Life</q> and <q>My Day</q> (with audio recording and playback) section from scratch for MemorySparx One. I built multiple account login logic with multiple realm database.
+								(https://itunes.apple.com/us/app/memorysparx-one/id1198415649?ls=1&mt=8)
+								(https://youtu.be/LkNuNPM9P9M)
+							</dd>
+						</div>
+					</dl>
+				</section>
+			</main>
 
-			</section>
-		</main>
 
-		<footer>
-
+		<footer class="page-footer font-small cyan darken-3">
+			 <a class="btn btn-social-icon btn-linkedin" href="https://www.w3schools.com">
+    			<span class="fa fa-linkedin"></span>
+  			</a>
 		</footer>
+
+
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	</body>
 </html>
